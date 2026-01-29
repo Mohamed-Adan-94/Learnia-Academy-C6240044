@@ -1,6 +1,6 @@
 **🚀 Learnia Academy Website**
 
-Hey there! This is my project** - **Learnia**, a modern learning platform I built from scratch.  
+Hey there! This is my project - **Learnia**, a modern learning platform I built from scratch.  
 It’s fully **responsive, interactive, and ready to impress**. 
 
 **🌐 Pages I Created**
