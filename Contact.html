@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Learnia</title>
+
+  <!-- Tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-[#f0f2f5] text-[#1e293b]">
+
+  <!-- HEADER -->
+  <header class="bg-[#1e293b] text-white shadow-md">
+    <div class="container mx-auto flex justify-between items-center px-6 py-4">
+      <img src="IMAGES/LogoAcademy.jpeg" alt="Learnia Logo" class="h-10 w-20 rounded-2xl">
+      <nav class="space-x-8 text-sm font-medium">
+        <a href="Index.html" class="hover:text-yellow-400">Home</a>
+        <a href="About.html" class="hover:text-yellow-400">About</a>
+        <a href="App.html" class="hover:text-yellow-400">App</a>
+        <a href="#" class="text-yellow-400">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- PAGE TITLE -->
+  <section class="text-center mt-16">
+    <h1 class="text-4xl font-bold mb-2">Contact to <span class="text-yellow-500">Learnia</span></h1>
+    <p class="text-gray-600 max-w-xl mx-auto">
+      Have a question or want to send us a message? Fill out the form below and we'll get back to you quickly.
+    </p>
+  </section>
+
+  <!-- CONTACT FORM -->
+  <main class="container mx-auto px-6 py-16 max-w-2xl">
+    <form class="bg-[#ffffff] border border-gray-300 rounded-2xl p-8 shadow-lg space-y-6">
+
+      <div>
+        <label for="name" class="block text-sm font-medium mb-1">Full Name</label>
+        <input type="text" id="name" placeholder="Your Name"
+               class="border rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-500">
+      </div>
+
+      <div>
+        <label for="email" class="block text-sm font-medium mb-1">Email</label>
+        <input type="email" id="email" placeholder="your@email.com"
+               class="border rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-500">
+      </div>
+
+      <div>
+        <label for="message" class="block text-sm font-medium mb-1">Message</label>
+        <textarea id="message" rows="5" placeholder="Your Message"
+                  class="border rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+      </div>
+
+      <button type="submit"
+              class="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition font-semibold w-full">
+        Send Message
+      </button>
+
+    </form>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-[#1e293b] text-white py-6 mt-20">
+    <div class="container mx-auto px-6 text-center text-sm">
+      <p>© 2026 Learnia Academy</p>
+      <p class="text-yellow-400 mt-1">info@learnia.com</p>
+    </div>
+  </footer>
+
+</body>
+</html>
